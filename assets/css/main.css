@@ -1,0 +1,100 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+@import url(http://fonts.googleapis.com/css?family=Alef:400,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #FFF;
+  font-family: 'Alef', sans-serif;
+  font-size: 1.6rem;
+}
+header {
+  width: 100% ;
+  height: 400px;
+  background: url(/assets/images/blogpic.jpg)
+}
+
+ul {
+  width: 80rem;
+  text-align: right;
+  margin: 0 auto;
+  list-style: none;
+  padding: 7.2rem 0;
+  position: relative;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1.8rem;
+}
+
+ul li:first-child{
+  position: absolute;
+  left: 0;
+  padding-left: 0;
+}
+
+ul li .logo{
+  background: #444;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1rem;
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+ul li .logo:hover{
+  background: #222;
+  text-decoration: none;
+}
+
+ul li:last-child{
+  padding-right: 0;
+}
+
+h1.title{
+  margin: 0 auto;
+  text-align: center;
+  width: 80rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1.8rem;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+div.wrap{ 
+  text-align: center;
+  margin: auto; 
+}
+
+div.wrap div{
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 20rem; 
+  padding: .5rem;
+}
+
+div.wrap div.recent{
+  width: 40rem;
+}
